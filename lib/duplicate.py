@@ -3,4 +3,4 @@ def duplicate(string):
   if len(a) > 1 and a[0] == a[1]:
     return ')'
   else:
-    return '('
+    return '(' * len(a)
