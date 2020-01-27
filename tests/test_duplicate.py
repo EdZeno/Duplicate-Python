@@ -6,8 +6,12 @@ def test_duplicate_returns():
 
 def test_duplicate_two_characters():
     string = 'ii'
-    assert duplicate(string) == ')'
+    assert duplicate(string) == '))'
 
 def test_duplicate_two_diff_characters():
     string = 'ib'
     assert duplicate(string) == '(('
+
+def test_duplicate_thre_char():
+    string = 'iib'
+    assert duplicate(string) == '))('
