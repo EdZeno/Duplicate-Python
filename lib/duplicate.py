@@ -7,7 +7,7 @@ def duplicate(string):
     print(a)
     print(c)
     print(string1)
-    if a.count(c) > 1:
+    if len(a) > 1 and a.count(c) > 1:
       string1.append(')')
     else:
       string1.append('(')

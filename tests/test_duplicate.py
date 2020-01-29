@@ -19,3 +19,7 @@ def test_duplicate_three_char():
 def test_duplicate_four_char():
     string = 'iibb'
     assert duplicate(string) == '))))'
+
+def test_duplicate_five_char():
+    string = 'iibbc'
+    assert duplicate(string) == '))))('
