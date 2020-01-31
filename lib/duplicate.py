@@ -1,5 +1,6 @@
 def duplicate(string):
-  a = list(string)
+  lower_case = string.lower()
+  a = list(lower_case)
   string1 = []
 
   for c in a:
