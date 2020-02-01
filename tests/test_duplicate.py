@@ -35,3 +35,7 @@ def test_duplicate_three_duplicates():
 def test_duplicate_capital():
     string = 'IibbCwi'
     assert duplicate(string) == '))))(()'
+
+def test_duplicate_three_inrow():
+    string = 'IiibbCwi'
+    assert duplicate(string) == ')))))(()'
